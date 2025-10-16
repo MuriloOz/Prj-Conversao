@@ -10,8 +10,6 @@
 
 Aplicação web moderna para conversão precisa e instantânea de diferentes unidades de medida.
 
-[🌐 Ver Demo](https://murilooz.github.io/Prj-Conversao/) | [📝 Reportar Bug](https://github.com/MuriloOz/Prj-Conversao/issues) | [✨ Solicitar Funcionalidade](https://github.com/MuriloOz/Prj-Conversao/issues)
-
 </div>
 
 ---
@@ -19,10 +17,6 @@ Aplicação web moderna para conversão precisa e instantânea de diferentes uni
 ## 📋 Sobre o Projeto
 
 O **Unit Converter** é uma aplicação web desenvolvida com foco em usabilidade e design moderno, oferecendo conversões instantâneas entre diversas unidades de medida. Com interface intuitiva e responsiva, permite conversões rápidas e precisas para uso profissional ou acadêmico.
-
-### ✨ Preview
-
-Screenshot do Projeto[alt text](image.png)
 
 ---
 
@@ -86,10 +80,7 @@ Screenshot do Projeto[alt text](image.png)
 
 ## 📦 Como Usar
 
-### Opção 1: Usar Online
-Acesse diretamente: [https://murilooz.github.io/Prj-Conversao/](https://murilooz.github.io/Prj-Conversao/)
-
-### Opção 2: Clonar Localmente
+### Opção 1: Clonar Localmente
 
 1. **Clone o repositório:**
 ```bash
@@ -187,7 +178,7 @@ Se este projeto foi útil para você, considere dar uma ⭐ no repositório!
 
 <div align="center">
 
-**Desenvolvido com ❤️ por Murilo Almeida**
+**Desenvolvido por Murilo Almeida**
 
 [⬆ Voltar ao topo](#-unit-converter---conversor-de-unidades-profissional)
 
