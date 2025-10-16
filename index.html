@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades Profissional</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <h1>Conversor</h1>
+            </div>
+            <p class="subtitle">Conversão precisa e instantânea de unidades</p>
+        </header>
+
+        <div class="converter-card">
+            <div class="category-selector">
+                <button class="category-btn active" data-category="temperature">
+                    <span class="icon">🌡️</span>
+                    <span>Temperatura</span>
+                </button>
+                <button class="category-btn" data-category="length">
+                    <span class="icon">📏</span>
+                    <span>Comprimento</span>
+                </button>
+                <button class="category-btn" data-category="weight">
+                    <span class="icon">⚖️</span>
+                    <span>Peso</span>
+                </button>
+                <button class="category-btn" data-category="volume">
+                    <span class="icon">🧪</span>
+                    <span>Volume</span>
+                </button>
+            </div>
+
+            <div class="conversion-area">
+                <div class="input-group">
+                    <label for="fromValue">De:</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="fromValue" placeholder="0" step="any">
+                        <select id="fromUnit" class="unit-select">
+                            <!-- Preenchido dinamicamente -->
+                        </select>
+                    </div>
+                </div>
+
+                <button class="swap-btn" id="swapBtn">
+                    <span class="swap-icon">⇄</span>
+                </button>
+
+                <div class="input-group">
+                    <label for="toValue">Para:</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="toValue" placeholder="0" readonly>
+                        <select id="toUnit" class="unit-select">
+                            <!-- Preenchido dinamicamente -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-display" id="resultDisplay">
+                <div class="result-text">Digite um valor para converter</div>
+            </div>
+
+            <div class="quick-conversions" id="quickConversions">
+                <!-- Preenchido dinamicamente -->
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Desenvolvido com ❤️ | Atualizado em tempo real</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
