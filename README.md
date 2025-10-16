@@ -22,7 +22,7 @@ O **Unit Converter** é uma aplicação web desenvolvida com foco em usabilidade
 
 ### ✨ Preview
 
-![Screenshot do Projeto](https://via.placeholder.com/800x400/667eea/ffffff?text=Unit+Converter+Preview)
+![Screenshot do Projeto]![alt text](image.png)
 
 ---
 
