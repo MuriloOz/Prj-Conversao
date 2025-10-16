@@ -71,7 +71,7 @@ O **Unit Converter** é uma aplicação web desenvolvida com foco em usabilidade
   - Flexbox e Grid Layout
   - Gradientes e animações
   - Design responsivo
-- **JavaScript Vanilla** - Lógica de conversão
+- **JavaScript** - Lógica de conversão
   - Funções matemáticas precisas
   - Manipulação do DOM
   - Event listeners
